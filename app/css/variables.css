@@ -1,6 +1,8 @@
 :root {
   --white: #ffffff;
-  --blue: #008891;
-  --orange: #c85312;
-  --yellow: #f7af00;
+  --orange: #e65300;
+  --yellow: #FFB100;
+  --light-blue: #9BC6CA;
+  --light-turquoise: #64ACB0;
+  --turquoise: #008791;
 }
