@@ -11,11 +11,13 @@ The designs were created to the following widths:
 
 ### Primary
 
-- Green: #1dbf5e
+- Blue: #008891
+- Orange: #c85312
+- Yellow: #f7af00
 
 ### Neutral
 
-- White: #F7F3F7
+- White: #FFFFFF
 
 ## Typography
 
