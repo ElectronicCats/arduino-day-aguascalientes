@@ -1,0 +1,26 @@
+.grid__div-title__h1 {
+    font-family: 'Mukta Malar', sans-serif;
+    color: var(--yellow);
+    margin-top: 21%;
+    margin-left: 1%;
+    font-size: 300%;
+}
+
+.grid__div-title {
+    grid-column: 2/9;
+}
+
+.grid__p {
+    font-family: 'Soleil-Light';
+    font-size: 150%;
+    color: var(--white);
+    margin-top: 0;
+    margin-left: 1%;
+    text-align: justify;
+    text-overflow:clip;
+ }
+ 
+ .grid__div-title__image {
+     display: flex;
+     grid-column: 10/15;
+ }
