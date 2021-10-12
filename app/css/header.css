@@ -3,34 +3,39 @@
 } */
 
 .arduino-logo {
-    width: 22em;
-    margin-top: -6em;
+    width: 460%;
+    margin-top: -305%;
     grid-column: 2/3;
 }
   
 .date {
-    width: 4em;
-    grid-column: 4/5;
-    margin-top: -4em;
+    width: 88%;
+    grid-column: 7/8;
+    margin-top: -240%;
+    margin-left: 20%;
 }
   
 .time {
-    width: 8em;
-    grid-column: 5/6;
-    margin-top: -4em;
+    width: 180%;
+    grid-column: 9/10;
+    margin-top: -240%;
+    margin-left: -25%;
 }
   
 .david {
-    max-width: 400px;
-    height: 100%;
-    grid-column: 6/-1;
-    margin-top: 5em;
+    width: 120%;
+    grid-column: 10/-2;
+    margin-top: 20%;
+    margin-left: -10%;
+    position: relative;
 }
  
 .pattern {
     grid-column: 1/-1;
     height: 100%;
     width: 100%;
-    padding-top: -200px;
+    position: relative;
+    top: -145%;
+    z-index: -1;
 }
   
