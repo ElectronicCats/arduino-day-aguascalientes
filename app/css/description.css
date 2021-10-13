@@ -1,4 +1,4 @@
-.grid__div-title__h1 {
+.feriaMaker__title {
     font-family: 'MuktaMalar-Bold';
     color: var(--yellow);
     margin-top: 21%;
@@ -6,12 +6,17 @@
     font-size: 300%;
 }
 
-.grid__div-title {
+.feriaMakerDescription {
     grid-column: 2/9;
+    margin-right: 8%;
 }
 
-.grid__p {
-    font-family: 'Soleil-Light';
+.feriaMaker__separator {
+    color: var(--white);
+}
+
+.feriaMaker__details {
+    font-family: 'Soleil-Regular';
     font-size: 150%;
     color: var(--white);
     margin-top: 0;
@@ -19,8 +24,31 @@
     text-align: justify;
     text-overflow:clip;
  }
- 
- .grid__div-title__image {
-     display: flex;
-     grid-column: 10/15;
+
+ .feriaMaker__museum-logo {
+     width: 15%;
+     margin-left: 3%;
  }
+
+ .feriaMaker__location {
+     margin-left: 25%;
+     margin-top: -13%;
+ }
+ 
+.feriaMakerImages {
+    grid-column: 9/15;
+    margin-top: 11%;
+    margin-left: 10%;
+}
+
+.feriaMakerImages__museum {
+    align-items: center;
+    width: 100%;
+    margin-top: 10%;
+}
+
+.feriaMakerImages__characters {
+    width: 55%;
+    margin-left: 30%;
+    margin-top: 7%;
+}
