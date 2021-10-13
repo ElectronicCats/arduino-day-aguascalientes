@@ -1,31 +1,31 @@
-.arduino-logo {
+.header__img-arduino {
     width: 460%;
     margin-top: -305%;
     grid-column: 2/3;
 }
   
-.date {
+.header__img-date {
     width: 88%;
     grid-column: 7/8;
     margin-top: -240%;
     margin-left: 20%;
 }
   
-.time {
+.header__img-time {
     width: 180%;
     grid-column: 9/10;
     margin-top: -240%;
     margin-left: -25%;
 }
   
-.david {
+.header__img-david {
     width: 120%;
     grid-column: 10/-2;
     margin-top: 20%;
     margin-left: -10%;
 }
  
-.pattern {
+.header__background-pattern {
     grid-column: 1/-1;
     height: 180vh;
     width: 100%;
