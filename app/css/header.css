@@ -1,7 +1,3 @@
-/* .header {
-  height: 500px;
-} */
-
 .arduino-logo {
     width: 460%;
     margin-top: -305%;
@@ -27,15 +23,14 @@
     grid-column: 10/-2;
     margin-top: 20%;
     margin-left: -10%;
-    position: relative;
 }
  
 .pattern {
     grid-column: 1/-1;
-    height: 100%;
+    height: 180px;
     width: 100%;
-    position: relative;
-    top: -145%;
-    z-index: -1;
+    background-image: url('../../assets/images/BG-Pattern.svg');
+    background-repeat: no-repeat;
+    margin-top: -20%;
 }
   
