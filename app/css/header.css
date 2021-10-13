@@ -27,7 +27,7 @@
  
 .pattern {
     grid-column: 1/-1;
-    height: 180px;
+    height: 180vh;
     width: 100%;
     background-image: url('../../assets/images/BG-Pattern.svg');
     background-repeat: no-repeat;
