@@ -38,17 +38,45 @@ body a {
 
 @font-face {
   font-family: 'Soleil-Bold';
-  src: url(../../assets/fonts/SoleilBold.otf);
+  src: url(../../assets/fonts/soleil/SoleilBold.otf);
 }
 @font-face {
   font-family: 'Soleil-Book';
-  src:  url(../../assets/fonts/SoleilBook.otf);
+  src:  url(../../assets/fonts/soleil/SoleilBook.otf);
 }
 @font-face {
   font-family: 'Soleil-Light';
-  src: url(../../assets/fonts/SoleilLight.otf);
+  src: url(../../assets/fonts/soleil/SoleilLight.otf);
 }
 @font-face {
   font-family: 'Soleil-Regular';
-  src: url(../../assets/fonts/SoleilRegular.otf);
+  src: url(../../assets/fonts/soleil/SoleilRegular.otf);
+}
+@font-face {
+  font-family: 'MuktaMalar-Bold';
+  src: url(../../assets/fonts/muktamalar/MuktaMalar-Bold.ttf);
+}
+@font-face {
+  font-family: 'MuktaMalar-ExtraBold';
+  src: url(../../assets/fonts/muktamalar/MuktaMalar-ExtraBold.ttf);
+}
+@font-face {
+  font-family: 'MuktaMalar-ExtraLight';
+  src: url(../../assets/fonts/muktamalar/MuktaMalar-ExtraLight.ttf);
+}
+@font-face {
+  font-family: 'MuktaMalar-Light';
+  src: url(../../assets/fonts/muktamalar/MuktaMalar-Light.ttf);
+}
+@font-face {
+  font-family: 'MuktaMalar-Medium';
+  src: url(../../assets/fonts/muktamalar/MuktaMalar-Medium.ttf);
+}
+@font-face {
+  font-family: 'MuktaMalar-Regular';
+  src: url(../../assets/fonts/muktamalar/MuktaMalar-Regular.ttf);
+}
+@font-face {
+  font-family: 'MuktaMalar-SemiBold';
+  src: url(../../assets/fonts/muktamalar/MuktaMalar-SemiBold.ttf);
 }
