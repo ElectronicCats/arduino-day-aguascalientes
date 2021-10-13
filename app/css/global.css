@@ -16,7 +16,7 @@ body {
   padding: 0;
   font-family: "Public Sans", sans-serif;
   line-height: 1.3;
-  background-color: var(--blue);
+  background-color: var(--turquoise);
 }
 
 body h1 {
@@ -27,3 +27,55 @@ body a {
   color: var(--yellow);
 }
 
+.grid {
+  display: grid;
+  grid-template-columns: repeat(15, 1fr);
+  width: 100%;
+  height: 100%;
+  align-items: center;
+}
+
+@font-face {
+  font-family: 'Soleil-Bold';
+  src: url(../../assets/fonts/soleil/SoleilBold.otf);
+}
+@font-face {
+  font-family: 'Soleil-Book';
+  src:  url(../../assets/fonts/soleil/SoleilBook.otf);
+}
+@font-face {
+  font-family: 'Soleil-Light';
+  src: url(../../assets/fonts/soleil/SoleilLight.otf);
+}
+@font-face {
+  font-family: 'Soleil-Regular';
+  src: url(../../assets/fonts/soleil/SoleilRegular.otf);
+}
+@font-face {
+  font-family: 'MuktaMalar-Bold';
+  src: url(../../assets/fonts/muktamalar/MuktaMalar-Bold.ttf);
+}
+@font-face {
+  font-family: 'MuktaMalar-ExtraBold';
+  src: url(../../assets/fonts/muktamalar/MuktaMalar-ExtraBold.ttf);
+}
+@font-face {
+  font-family: 'MuktaMalar-ExtraLight';
+  src: url(../../assets/fonts/muktamalar/MuktaMalar-ExtraLight.ttf);
+}
+@font-face {
+  font-family: 'MuktaMalar-Light';
+  src: url(../../assets/fonts/muktamalar/MuktaMalar-Light.ttf);
+}
+@font-face {
+  font-family: 'MuktaMalar-Medium';
+  src: url(../../assets/fonts/muktamalar/MuktaMalar-Medium.ttf);
+}
+@font-face {
+  font-family: 'MuktaMalar-Regular';
+  src: url(../../assets/fonts/muktamalar/MuktaMalar-Regular.ttf);
+}
+@font-face {
+  font-family: 'MuktaMalar-SemiBold';
+  src: url(../../assets/fonts/muktamalar/MuktaMalar-SemiBold.ttf);
+}
