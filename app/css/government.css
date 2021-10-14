@@ -9,9 +9,22 @@
 }
 
 .government__logos {
-    grid-column: 5/10;
+    padding-top: 10%;
+    padding-bottom: 20%;
+    grid-column: 5/11;
+    display: flex;
+    overflow-wrap: wrap;
 }
 
 .government__separator {
     grid-column: 1/9;
+}
+
+.government__img-gobierno {
+    max-width: 40%;
+}
+
+.government__img-contigo {
+    max-width: 80%;
+    padding-left: 20%;
 }
