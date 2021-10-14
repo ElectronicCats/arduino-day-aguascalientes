@@ -1,0 +1,12 @@
+.collab {
+    background-color: white;
+  }
+
+  .contenedor {
+    display: grid;
+    grid-template-columns: 3fr 2fr;
+    grid-template-rows: auto;
+    margin-left: 5%;
+    margin-right: 5%;
+    margin-bottom: 10%;
+  }
