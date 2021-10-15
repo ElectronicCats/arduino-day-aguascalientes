@@ -11,7 +11,9 @@ The designs were created to the following widths:
 
 ### Primary
 
-- Blue: #008891
+- Turquoise: #008791
+- Light turquoise: #64ACB0
+- Light blue: #9BC6CA
 - Orange: #c85312
 - Yellow: #f7af00
 
