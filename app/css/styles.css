@@ -1,7 +1,10 @@
 @import "variables.css";
 @import "global.css";
 @import "header.css";
+<<<<<<< HEAD
 @import "register.css";
 @import "description.css";
 @import "government.css";
+=======
+>>>>>>> b80efe9f610d0cbb8e22590859512f8edc15794e
 @import "collab.css";
