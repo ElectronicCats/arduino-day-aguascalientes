@@ -48,7 +48,7 @@
   margin-right: 40%;
   width: 17%;
   position: relative;
-  top: 32%;
+  margin-bottom: -30%;
   right: 36%;
 }
 
@@ -111,7 +111,7 @@
 .separator {
   color: var(--light-blue);
   position: relative;
-  bottom: 9%;
+  margin-top: -3%;
   left: 98%;
   width: 119%;
 }
