@@ -18,7 +18,7 @@
 
   <body>
     <header class="header">
-      <div class="grid">
+      <div class="grid header__background-pattern">
         <img
           src="assets/images/logo-arduinoday-2021.svg"
           class="header__img-arduino"
@@ -40,12 +40,12 @@
           alt="David Cuartielles"
         />
       </div>
-      <div class="header__background-pattern"></div>
+      
     </header>
     <main>
  
-      <section style="color: var(--blue)" class="register">
-        <article class="contenedor">
+      <section class="register grid">
+        <article class="contenedor grid">
           <div class="resistor_block">
             <img src="assets/images/resistor-text.svg" class="resistor-img" />
             <p></p>
@@ -53,13 +53,15 @@
             ><span class="titles"> TU PROYECTO</span><br />
             <span class="light_text">Tienes hasta el</span
             ><span class="bold_text_date"> 29 • Octubre</span>
+          <hr class="separator">
           </div>
           <article class="diodo_block">
             <section class="contenedor1">
-              <figure class="diodo-img">
-                <img src="assets/images/pequeño-diodo.svg" />
-              </figure>
+              
               <div class="d_text">
+                <figure class="diodo-img">
+                  <img src="assets/images/pequeño-diodo.svg" />
+                </figure>
                 <span class="bold_text_above">CON LA PRESENCIA DE</span><br />
                 <span class="extrabold_David">DAVID CUARTIELLES</span><br />
                 <span class="text_below">Co-Creador de Arduino</span><br />
@@ -75,10 +77,11 @@
             </p>
           </div>
           <div class="boton_registrar">
-            <img src="assets/images/boton-registrarme.svg" />
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSflndul7rOPTtDgU1Ih3KWi-ht0mGq5TFWOPreSUDegjXpcSg/viewform?usp=sf_link" target="_blank"
+              ><img src="assets/images/boton-registrarme.svg" /></a>
           </div>
         </article>
-        <img src="assets/images/Franja.svg" />
+        <img src="assets/images/Franja.svg" class="franja" />
       </section>
    
       <section class="grid feriaMaker">
@@ -99,7 +102,6 @@
 
     </main>
     <footer>
-
         <section class="grid government">
             <div class="government__made-with">
                 <img src="./assets/images/hecho con.svg" alt="Hecho con amor">
@@ -112,7 +114,16 @@
                 <img src="./assets/images/Franja-pequeña.svg">
             </div>
         </section>
-        
+        <section class="collab">
+          <figure class="colab_de">
+            <img src="assets/images/en colaboracion.svg" />
+          </figure>
+          <figure class="logos_block">
+            <a href="https://electroniccats.com" target="_blank"
+              ><img src="assets/images/logo-electronic cats.svg" class="logo_img"
+            /></a>
+          </figure>
+        </section>
     </footer>
     <script src="./app/js/index.js"></script>
   </body>
