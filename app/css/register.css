@@ -99,8 +99,8 @@
 }
 
 .desc_text {
-  font-family: "Soleil-Light";
+  font-family: "Soleil-Regular";
   color: var(--turquoise);
-  font-size: 80%;
+  font-size: 150%;
   text-justify: auto;
 }
