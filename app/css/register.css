@@ -1,11 +1,10 @@
 .register {
-  background-color:var(--white);
-  margin-top: -103%;
+  background-color: white;
+  margin-top: -5%;
 }
 
 .contenedor {
-  display: grid;
-  grid-template-columns: 3fr 2fr;
+  grid-column: 1/-1;
   margin-left: 5%;
   margin-right: 5%;
   margin-bottom: 10%;
@@ -40,7 +39,7 @@
 .contenedor1 {
   margin-top: 15%;
   display: grid;
-  grid-template-columns: 1fr 3fr;
+  grid-column: 8/-1;
 }
 
 .diodo-img {
@@ -57,25 +56,25 @@
 .extrabold_titles {
   font-family: "MuktaMalar-ExtraBold";
   color: var(--turquoise);
-  font-size: 150%;
+  font-size: 300%;
 }
 
 .titles {
   font-family: "MuktaMalar-ExtraLight";
   color: var(--turquoise);
-  font-size: 145%;
+  font-size: 290%;
 }
 
 .bold_text_date {
   font-family: "MuktaMalar-Bold";
   color: var(--orange);
-  font-size: 100%;
+  font-size: 185%;
 }
 
 .light_text {
   font-family: "MuktaMalar-Light";
   color: var(--orange);
-  font-size: 100%;
+  font-size: 185%;
 }
 
 .text_below {
@@ -88,7 +87,7 @@
 .extrabold_David {
   font-family: "MuktaMalar-ExtraBold";
   color: var(--turquoise);
-  font-size: 150%;
+  font-size: 300%;
   margin-left: 1%;
 }
 
