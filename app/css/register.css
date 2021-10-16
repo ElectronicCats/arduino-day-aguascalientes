@@ -59,25 +59,25 @@
 .extrabold_titles {
   font-family: "MuktaMalar-ExtraBold";
   color: var(--turquoise);
-  font-size: 150%;
+  font-size: 300%;
 }
 
 .titles {
   font-family: "MuktaMalar-ExtraLight";
   color: var(--turquoise);
-  font-size: 145%;
+  font-size: 290%;
 }
 
 .bold_text_date {
   font-family: "MuktaMalar-Bold";
   color: var(--orange);
-  font-size: 100%;
+  font-size: 185%;
 }
 
 .light_text {
   font-family: "MuktaMalar-Light";
   color: var(--orange);
-  font-size: 100%;
+  font-size: 185%;
 }
 
 .text_below {
@@ -102,7 +102,7 @@
 }
 
 .desc_text {
-  font-family: "Soleil-Light";
+  font-family: "Soleil-Regular";
   color: var(--turquoise);
   font-size: 90%;
   text-align: justify;
