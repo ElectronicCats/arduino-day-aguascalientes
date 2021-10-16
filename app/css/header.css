@@ -33,3 +33,19 @@
     background-repeat: no-repeat;
     margin-top: -20%;
 }
+
+@media screen and (max-width: 700px) {
+    .header__img-arduino {
+        width: 260%;
+        margin-top: -355%;
+        grid-column: 2/3;
+    }
+    .header__img-date {
+        width: 100%;
+        grid-column: 7/8;
+    }
+    .header__img-time {
+        width: 100%;
+        grid-column: 9/10;
+    }
+}
