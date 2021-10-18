@@ -27,11 +27,12 @@
  
 .header__background-pattern {
     grid-column: 1/-1;
-    height: 180vh;
+    height: 160%;
     width: 100%;
     background-image: url('../../assets/images/BG-Pattern.svg');
     background-repeat: no-repeat;
-    margin-top: -20%;
+    background-position: bottom;
+    background-position-y: 85%;
 }
 
 @media screen and (max-width: 700px) {
