@@ -1,0 +1,33 @@
+.collab {
+  background-color: var(--white);
+}
+
+.logos_block {
+  padding-bottom: 10%;
+  display: flex;
+  flex-flow: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.logos_block a {
+  width: 200px;
+}
+
+.logo_img {
+  width: 100%;
+  margin: 5%;
+}
+
+.colab_de {
+  padding-top: 10%;
+  padding-bottom: 5%;
+  width: 25%;
+  margin: auto;
+}
+
+body a {
+  width: 100%;
+  text-align: center;
+}
