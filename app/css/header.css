@@ -34,4 +34,33 @@
     background-position: bottom;
     background-position-y: 85%;
 }
-  
+
+@media screen and (max-width: 1000px) {
+    .header__img-arduino {
+        width: 35%;
+        margin-top: -30%;
+        margin-left: 5%;
+        position: absolute;
+    }
+    .header__img-date {
+        width: 62%;
+        grid-column: 2/4;
+        margin-bottom: -247%;
+        margin-left: 18%;
+    }
+    .header__img-time {
+        width: 80%;
+        grid-column: 4/7;
+        margin-bottom: -247%;
+        margin-left: 0%;
+    }
+    .header__img-david {
+        width: 120%;
+        grid-column: 8/-2;
+        margin-top: 20%;
+        margin-left: -12%;
+    }
+    .header__background-pattern {
+        background-position-y: 90%;
+    }
+}
