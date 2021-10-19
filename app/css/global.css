@@ -24,7 +24,8 @@ body h1 {
 }
 
 body a {
-  color: var(--yellow);
+  width: 100%;
+  text-align: center;
 }
 
 .grid {
