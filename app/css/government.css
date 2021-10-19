@@ -28,10 +28,10 @@
     padding-left: 20%;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 700px) {
     .government__made-with {
         padding-top: 10%;
-        width: 70%;
+        width: 55%;
         margin: auto;
         grid-column: 2/-2;
     }
