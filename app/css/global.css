@@ -23,6 +23,11 @@ body h1 {
   color: var(--orange);
 }
 
+body a {
+  width: 100%;
+  text-align: center;
+}
+
 .grid {
   display: grid;
   grid-template-columns: repeat(15, 1fr);
