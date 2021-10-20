@@ -52,3 +52,35 @@
     margin-left: 30%;
     margin-top: 7%;
 }
+
+@media screen and (max-width: 1200px) {
+    .feriaMakerDescription {
+        grid-column: 2/-1;
+    }
+    .feriaMakerImages {
+        grid-column: 1/-1;
+    }
+    .feriaMakerImages__museum {
+        width: 90%;
+        grid-column: 2/-1;
+        margin: auto;
+    }
+    .feriaMaker__museum-logo {
+        width: 30%;
+        margin-left: auto;
+        margin-right: auto;
+        display: block;
+    }
+    .feriaMaker__location {
+        display: block;
+        margin-top: 5%;
+        margin-left: 0%;
+    }  
+    .feriaMakerImages__characters {
+        width: 55%;
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        margin-bottom: 5%;
+    }  
+}
