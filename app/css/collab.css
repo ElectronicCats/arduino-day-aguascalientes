@@ -1,5 +1,6 @@
 .collab {
   background-color: var(--white);
+  border-top: var(--turquoise) 25px solid;
 }
 
 .logos_block {
