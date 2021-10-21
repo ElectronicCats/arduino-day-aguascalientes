@@ -1,21 +1,20 @@
 .header__img-arduino {
-    width: 460%;
-    margin-top: -305%;
-    grid-column: 2/3;
+    width: 30%;
+    margin-top: -20%;
+    margin-left: 10%;
+    position: absolute;
 }
-  
 .header__img-date {
-    width: 88%;
-    grid-column: 7/8;
-    margin-top: -240%;
-    margin-left: 20%;
+    width: 45%;
+    grid-column: 2/4;
+    margin-bottom: -120%;
+    margin-left: 40%;
 }
-  
 .header__img-time {
-    width: 180%;
-    grid-column: 9/10;
-    margin-top: -240%;
-    margin-left: -25%;
+    width: 70%;
+    grid-column: 4/7;
+    margin-bottom: -81%;
+    margin-left: 25%;
 }
   
 .header__img-david {
@@ -26,34 +25,21 @@
 }
  
 .header__background-pattern {
-    grid-column: 1/-1;
-    height: 160%;
+    height: 100%;
     width: 100%;
     background-image: url('../../assets/images/BG-Pattern.svg');
+    background-position: top;
     background-repeat: no-repeat;
-    background-position: bottom;
-    background-position-y: 85%;
 }
 
+.header__background-bottom {
+    grid-column: 1/-1;
+    height: 160px;
+    width: 100%;
+} 
+
 @media screen and (max-width: 1000px) {
-    .header__img-arduino {
-        width: 35%;
-        margin-top: -30%;
-        margin-left: 5%;
-        position: absolute;
-    }
-    .header__img-date {
-        width: 62%;
-        grid-column: 2/4;
-        margin-bottom: -247%;
-        margin-left: 18%;
-    }
-    .header__img-time {
-        width: 80%;
-        grid-column: 4/7;
-        margin-bottom: -247%;
-        margin-left: 0%;
-    }
+    
     .header__img-david {
         width: 120%;
         grid-column: 8/-2;
