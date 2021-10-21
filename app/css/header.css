@@ -33,7 +33,6 @@
 }
 
 @media screen and (max-width: 1000px) {
-    
     .header__img-david {
         width: 120%;
         grid-column: 8/-2;
@@ -41,6 +40,21 @@
         margin-left: -12%;
     }
     .header__background-pattern {
-        background-position-y: 90%;
+        background-size: cover;
+    }
+    .header__img-arduino {
+        width: 40%;
+        margin-left: 3%;
+        position: absolute;
+    }
+    .header__img-date {
+        width: 70%;
+        margin-bottom: -190%;
+        margin-left: 0%;
+    }
+    .header__img-time {
+        width: 90%;
+        margin-bottom: -123%;
+        margin-left: 0%;
     }
 }
