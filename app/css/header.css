@@ -20,23 +20,17 @@
 .header__img-david {
     width: 120%;
     grid-column: 10/-2;
-    margin-top: 20%;
+    margin-top: 19%;
     margin-left: -10%;
 }
  
 .header__background-pattern {
     height: 100%;
     width: 100%;
-    background-image: url('../../assets/images/BG-Pattern.svg');
+    background-image: url('../../assets/images/BG-Header.svg');
     background-position: top;
     background-repeat: no-repeat;
 }
-
-.header__background-bottom {
-    grid-column: 1/-1;
-    height: 160px;
-    width: 100%;
-} 
 
 @media screen and (max-width: 1000px) {
     
