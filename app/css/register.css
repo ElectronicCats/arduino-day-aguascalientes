@@ -65,13 +65,13 @@
 
 .bold_text_date {
   font-family: "MuktaMalar-Bold";
-  color: var(--orange);
+  color: var(--yellow);
   font-size: 160%;
 }
 
 .light_text {
   font-family: "MuktaMalar-Light";
-  color: var(--orange);
+  color: var(--yellow);
   font-size: 150%;
 }
 

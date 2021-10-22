@@ -1,5 +1,6 @@
 .government {
   background-color: var(--white);
+  border-bottom: var(--light-blue) 25px solid;
 }
 .government__made-with {
   padding-top: 10%;
@@ -13,10 +14,6 @@
   padding-bottom: 20%;
   grid-column: 5/11;
   display: flex;
-}
-
-.government__separator {
-  grid-column: 1/9;
 }
 
 .government__img-gobierno {
