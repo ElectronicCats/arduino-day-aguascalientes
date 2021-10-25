@@ -1,0 +1,18 @@
+.description-workshop {
+    background-color: var(--white);
+    grid-column: 1/-1;
+    margin-top: -1%;
+}
+.description-workshop__text {
+    grid-column: 2/10;
+}
+.description-workshop__paragraph {
+    margin: 20% 5% 20% 5%;
+    font-family: 'Soleil-Regular';
+    font-size: 150%;
+    color: var(--turquoise)
+}
+.bold-yellow {
+    color: var(--yellow);
+    font-weight: bold;
+}
