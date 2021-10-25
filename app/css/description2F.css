@@ -1,10 +1,9 @@
 .description-workshop {
     background-color: var(--white);
-    grid-column: 1/-1;
     margin-top: -1%;
 }
 .description-workshop__text {
-    grid-column: 2/10;
+    grid-column: 2/9;
 }
 .description-workshop__paragraph {
     margin: 20% 5% 20% 5%;
@@ -15,4 +14,19 @@
 .bold-yellow {
     color: var(--yellow);
     font-weight: bold;
+}
+.description-workshop__images {
+    grid-column: 9/-1;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+}
+.images__evento-presencial {
+    grid-column: 1/5;
+    width: 75%;
+    margin: auto;
+}
+.images__aniversario {
+    grid-column: 6/8;
+    width: 100%;
 }
