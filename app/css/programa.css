@@ -1,0 +1,48 @@
+.programa {
+    background-color: var(--turquoise);
+}
+.programa__title {
+    grid-column: 1/-1;
+    height: 100%;
+    width: 100%;
+}
+.programa__title-img {
+    grid-column: 1/-1;
+    max-width: 55%;
+    margin: auto;
+    padding: 10%;
+}
+.programa__ponentes {
+    grid-column: 1/-1;
+}
+.ponentes-ponente {
+    max-width: 50%;
+    grid-column: span 5;
+    margin: auto;
+}
+.programa__left {
+    grid-column: 2/9;
+    padding-top: 20%;
+}
+.programa__left-ind {
+    grid-column: 1/-1;
+    padding-bottom: 8%;
+}
+.left__description {
+    grid-column: 1/10;
+    text-align: right;
+    color: var(--white);
+    font-size: 150%;
+    font-family: 'Soleil-Regular';
+}
+.left__hour {
+    grid-column: 11/14;
+    text-align: center;
+    color: var(--yellow);
+    font-size: 150%;
+    border-right: 2%;
+    border-color: var(--yellow);
+}
+.tallerista {
+    font-size: 80%;
+}
