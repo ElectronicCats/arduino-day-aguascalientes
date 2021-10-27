@@ -75,7 +75,6 @@
 .tallerista {
     font-size: 80%;
 }
-
 .hour-start {
     position: relative;
     bottom: 8%;
@@ -97,4 +96,50 @@
 .circle-right {
     position: relative;
     right: 10%;
+}
+@media screen and (max-width: 1200px) {
+    .programa__left {
+        grid-column: 2/-2;
+        padding-top: 0%;
+    }
+    .programa__right {
+        grid-column: 2/-2;
+        padding-top: 0%;
+    }
+    .programa__left-ind {
+        padding-bottom: 4%;
+    }
+    .programa__right-ind {
+        padding-bottom: 4%;
+    }
+    .left__description {
+        grid-column: 6/-1;
+        font-size: 130%;
+        text-align: left;
+    }
+    .right__description {
+        font-size: 130%;
+    }
+    .left__hour {
+        grid-column: 2/5;
+        font-size: 130%;
+        border-left: 3px solid;
+        border-right: none;
+        height: 150%;
+        padding-top: 30%;
+    }
+    .right__hour {
+        font-size: 130%;
+        padding-top: 30%;
+    }
+    .circle-left {
+        position: relative;
+        left: -10%;
+    }
+    .hour-start {
+        bottom: 0%;
+    }
+    .hour-end {
+        top: -4%
+    }
 }
