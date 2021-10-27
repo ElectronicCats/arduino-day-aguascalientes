@@ -1,60 +1,69 @@
 .header__img-arduino {
-    width: 30%;
-    margin-top: -20%;
-    margin-left: 10%;
-    position: absolute;
+  width: 30%;
+  margin-top: -18%;
+  margin-left: 10%;
+  position: absolute;
+}
+.header_25aniversary {
+  width: 10%;
+  position: absolute;
+  top: 0px;
+  right: 45%;
 }
 .header__img-date {
-    width: 45%;
-    grid-column: 2/4;
-    margin-bottom: -120%;
-    margin-left: 40%;
+  width: 45%;
+  grid-column: 2/4;
+  margin-bottom: -120%;
+  margin-left: 40%;
 }
 .header__img-time {
-    width: 70%;
-    grid-column: 4/7;
-    margin-bottom: -81%;
-    margin-left: 25%;
+  width: 70%;
+  grid-column: 4/7;
+  margin-bottom: -81%;
+  margin-left: 25%;
 }
-  
+
 .header__img-david {
-    width: 120%;
-    grid-column: 10/-2;
-    margin-top: 19%;
-    margin-left: -10%;
+  width: 120%;
+  grid-column: 10/-2;
+  margin-top: 19%;
+  margin-left: -10%;
 }
- 
+
 .header__background-pattern {
-    height: 100%;
-    width: 100%;
-    background-image: url('../../assets/images/BG-Header.svg');
-    background-position: top;
-    background-repeat: no-repeat;
+  height: 100%;
+  width: 100%;
+  background-image: url("../../assets/images/BG-Header.svg");
+  background-position: top;
+  background-repeat: no-repeat;
 }
 
 @media screen and (max-width: 1000px) {
-    .header__img-david {
-        width: 120%;
-        grid-column: 8/-2;
-        margin-top: 20%;
-        margin-left: -12%;
-    }
-    .header__background-pattern {
-        background-size: cover;
-    }
-    .header__img-arduino {
-        width: 40%;
-        margin-left: 3%;
-        position: absolute;
-    }
-    .header__img-date {
-        width: 70%;
-        margin-bottom: -190%;
-        margin-left: 0%;
-    }
-    .header__img-time {
-        width: 90%;
-        margin-bottom: -123%;
-        margin-left: 0%;
-    }
+  .header__img-david {
+    width: 120%;
+    grid-column: 8/-2;
+    margin-top: 20%;
+    margin-left: -12%;
+  }
+  .header__background-pattern {
+    background-size: cover;
+  }
+  .header__img-arduino {
+    width: 40%;
+    margin-left: 3%;
+    position: absolute;
+  }
+  .header__img-date {
+    width: 70%;
+    margin-bottom: -190%;
+    margin-left: 0%;
+  }
+  .header__img-time {
+    width: 90%;
+    margin-bottom: -123%;
+    margin-left: 0%;
+  }
+  .header_25aniversary {
+    right: 52%;
+  }
 }
