@@ -59,7 +59,7 @@
     text-align: center;
     color: var(--yellow);
     font-size: 150%;
-    border-right: 5px solid;
+    border-right: 3px solid;
     height: 150%;
     padding-top: 40%;
 }
@@ -67,7 +67,7 @@
     grid-column: 2/5;
     color: var(--yellow);
     font-size: 150%;
-    border-left: 5px solid;
+    border-left: 3px solid;
     height: 150%;
     padding-top: 40%;
     text-align: center;
@@ -82,5 +82,19 @@
 }
 .hour-end {
     position: relative;
-    top: 24%
+    top: 10%
+}
+.circle {
+    height: 20px;
+    width: 20px;
+    background-color: var(--yellow);
+    border-radius: 50%;
+}
+.circle-left {
+    position: relative;
+    left: 92%;
+}
+.circle-right {
+    position: relative;
+    right: 10%;
 }
