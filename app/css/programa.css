@@ -145,4 +145,13 @@
     .hour-end {
         top: -4%
     }
+    .programa__ponentes {
+        grid-column: 1/-1;
+    }
+    .ponentes-ponente {
+        max-width: 75%;
+    }
+    .programa__title-img {
+        max-width: 65%;
+    }
 }
