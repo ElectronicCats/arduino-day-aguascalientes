@@ -18,12 +18,13 @@
     padding: 10%;
 }
 .programa__ponentes {
-    grid-column: 1/-1;
+    grid-column: 4/-4;
 }
 .ponentes-ponente {
-    max-width: 50%;
+    max-width: 70%;
     grid-column: span 5;
     margin: auto;
+    margin-top: -20%;
 }
 .programa__left {
     grid-column: 2/9;
