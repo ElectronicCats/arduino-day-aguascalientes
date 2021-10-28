@@ -4,8 +4,13 @@
 }
 
 .ponentes_title {
+  display: flex;
+  flex-flow: row;
+  justify-content: center;
+}
+
+.ponentes_titleimg{
   width: 20%;
-  margin-left: 40%;
   padding-top: 10%;
 }
 
@@ -19,16 +24,13 @@
   align-items: center;
 }
 
-.ponentes_block div {
-  width: 400px;
-  margin-bottom: 5%;
-}
-
 .ponentes_text {
   font-family: "Soleil-Regular";
   color: var(--turquoise);
   font-size: 130%;
   text-align: center;
+  width: 400px;
+  margin-bottom: 5%;
 }
 
 .ponente_img {
