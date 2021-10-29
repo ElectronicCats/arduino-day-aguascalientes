@@ -9,7 +9,7 @@
   justify-content: center;
 }
 
-.ponentes_titleimg{
+.ponentes_title img{
   width: 20%;
   padding-top: 10%;
 }
@@ -42,11 +42,6 @@
     width: 30%;
     margin-left: 40%;
     padding-top: 10%;
-  }
-
-  .ponentes_block div {
-    width: 300px;
-    margin-bottom: 5%;
   }
 
   .ponentes_text {
