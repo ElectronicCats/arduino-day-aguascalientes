@@ -12,13 +12,19 @@
     width: 100%;
 }
 .programa__title-img {
-    grid-column: 1/-1;
-    max-width: 45%;
+    grid-column: 6/7;
     margin: auto;
-    padding: 10%;
+}
+.programa__title-text {
+    font-family: 'MuktaMalar-ExtraBold';
+    color: var(--white);
+    text-align: center;
+    font-size: 290%;
+    grid-column: 7/10;
 }
 .programa__ponentes {
     grid-column: 4/-4;
+    padding-top: 10%;
 }
 .ponentes-ponente {
     max-width: 70%;
