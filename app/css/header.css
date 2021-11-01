@@ -34,7 +34,7 @@
 .header__background-pattern {
   height: 100%;
   width: 100%;
-  background-image: url("../../assets/images/BG-Header.svg");
+  background-image: url("../../assets/images/bg_header.svg");
   background-position: top;
   background-repeat: no-repeat;
 }
