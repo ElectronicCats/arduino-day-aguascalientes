@@ -1,0 +1,55 @@
+.description-workshop {
+    background-color: var(--white);
+    margin-top: -1%;
+}
+.description-workshop__text {
+    grid-column: 2/9;
+}
+.description-workshop__paragraph {
+    margin: 20% 5% 20% 5%;
+    font-family: 'Soleil-Regular';
+    font-size: 150%;
+    color: var(--turquoise)
+}
+.bold-yellow {
+    color: var(--yellow);
+    font-weight: bold;
+}
+.description-workshop__images {
+    grid-column: 9/-1;
+    height: 100%;
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+}
+.images__evento-presencial {
+    grid-column: 1/5;
+    width: 75%;
+    margin: auto;
+}
+.images__aniversario {
+    grid-column: 6/8;
+    width: 100%;
+}
+@media screen and (max-width: 1000px) {
+    .description-workshop__text {
+        grid-column: 1/-1;
+        grid-row: 2;
+    }
+    .description-workshop__images {
+        grid-column: 1/-1;
+        grid-row: 1;
+        height: 100%;
+        display: grid;
+        grid-template-columns: repeat(8, 1fr);
+    }
+    .images__evento-presencial {
+        width: 55%;
+    }
+    .images__aniversario {
+        grid-column: 6/8;
+        width: 70%;
+    }
+    .description-workshop__paragraph {
+        margin: 5%;
+    }
+}
