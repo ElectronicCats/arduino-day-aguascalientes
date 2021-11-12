@@ -9,7 +9,7 @@
   justify-content: center;
 }
 
-.ponentes_title img{
+.ponentes_title img {
   width: 20%;
   padding-top: 10%;
 }
@@ -39,9 +39,11 @@
 
 @media screen and (max-width: 700px) {
   .ponentes_title {
-    width: 30%;
-    margin-left: 40%;
+    width: 70%;
     padding-top: 10%;
+  }
+  .ponentes_title img {
+    width: 100%;
   }
 
   .ponentes_text {
