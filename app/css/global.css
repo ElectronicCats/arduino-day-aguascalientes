@@ -41,7 +41,7 @@ body a {
   color: var(--white);
   display: inline-block;
   height: 26px;
-  line-height: 26px;
+  line-height: 30px;
   padding: 0 20px 0 0px;
   position: relative;
   margin: 0 10px 10px 0;
@@ -57,7 +57,11 @@ body a {
   background-color: var(--light-blue);
   border-left: 10px solid var(--light-blue);
 }
-
+.tag--yellow::after,
+.tag--yellow {
+  background-color: var(--yellow);
+  border-left: 10px solid var(--yellow);
+}
 .tag::before {
   background: transparent;
   border-radius: 10px;
