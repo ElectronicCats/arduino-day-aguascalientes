@@ -1,6 +1,5 @@
 .description-workshop {
     background-color: var(--white);
-    margin-top: -1%;
 }
 .description-workshop__text {
     grid-column: 2/9;
@@ -22,9 +21,12 @@
     grid-template-columns: repeat(8, 1fr);
 }
 .images__evento-presencial {
-    grid-column: 1/5;
-    width: 75%;
+    grid-column: 1/9;
+    width: 100%;
     margin: auto;
+}
+.images__evento-presencial img{
+    width: 100%;
 }
 .images__aniversario {
     grid-column: 6/8;

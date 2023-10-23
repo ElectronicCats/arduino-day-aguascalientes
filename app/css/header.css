@@ -1,66 +1,82 @@
-.header__img-arduino {
-  width: 30%;
-  margin-top: -18%;
-  margin-left: 10%;
-  position: absolute;
-}
-.header_25aniversary {
-  width: 10%;
-  position: absolute;
-  top: 0px;
-  right: 45%;
-}
-.header__img-date {
-  width: 100%;
-  grid-column: 3/4;
+.header {
+  background-color: var(--white);
   position: relative;
-  top: 20%;
+  grid-template-rows: repeat(15, 1fr);
+  max-height: 100vh;
 }
-.header__img-time {
-  width: 70%;
-  grid-column: 4/7;
-  position: relative;
-  top: 20%;
-  left: 25%;
-}
-
-.header__img-david {
-  width: 120%;
-  grid-column: 10/-2;
-  margin-top: 19%;
-  margin-left: -10%;
-}
-
 .header__background-pattern {
-  height: 100%;
-  width: 100%;
-  background-image: url("../../assets/images/bg_header.svg");
-  background-position: top;
+  background-image: url("../../assets/images/pleca.svg");
   background-repeat: no-repeat;
+  grid-column: 1/-1;
+  grid-row: 14/-1;
+  height: 100%;
+}
+.header__aduinoday {
+  grid-column: 1/7;
+  grid-row: 6/10;
+  font-size: xx-large;
+}
+.header__aduinoday img {
+  width: 100%;
 }
 
-@media screen and (max-width: 1000px) {
-  .header__img-david {
-    width: 120%;
-    grid-column: 8/-2;
-    margin-top: 20%;
-    margin-left: -12%;
+.header__david {
+  grid-column: 7/11;
+  grid-row: 7/-1;
+  z-index: 1;
+}
+
+.header__david img {
+  width: 100%;
+}
+.header__dates {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+.header__dates-hour {
+  vertical-align: text-top;
+}
+
+.header__makers {
+  grid-column: 10/-1;
+  grid-row: 7/12;
+  align-self: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: x-large;
+}
+.header__makers img {
+  width: 100%;
+}
+.header__makers div {
+  width: 100%;
+  color: var(--white);
+  text-align: center;
+  background-color: var(--yellow);
+}
+.header__goverment {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+@media screen and (max-width: 1023px) {
+  .header__aduinoday {
+    grid-column: 2/10;
+    grid-row: 2/7;
+    font-size: large;
   }
-  .header__background-pattern {
-    background-size: cover;
+  .header__david {
+    grid-column: 1/8;
+    grid-row: 7/-1;
   }
-  .header__img-arduino {
-    width: 40%;
-    margin-left: 3%;
-  }
-  .header__img-date {
-    grid-column: 2/4;
-    max-width: 75%;
-  }
-  .header__img-time {
-    width: 85%;
-  }
-  .header_25aniversary {
-    right: 52%;
+  .header__makers {
+    grid-column: 9/-1;
+    grid-row: 8/12;
+    align-items: center;
+    font-size: x-large;
   }
 }

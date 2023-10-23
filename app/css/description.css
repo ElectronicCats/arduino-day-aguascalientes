@@ -1,9 +1,7 @@
 .feriaMaker__title {
     font-family: 'MuktaMalar-Bold';
     color: var(--yellow);
-    margin-top: 21%;
-    margin-left: 1%;
-    font-size: 300%;
+
 }
 
 .feriaMakerDescription {
