@@ -1,8 +1,3 @@
-.grid-programa {
-    grid-column: 1/-1;
-    display: grid;
-    grid-template-columns: repeat(16, 1fr);
-}
 .programa {
     background-color: var(--turquoise);
 }
@@ -10,6 +5,15 @@
     grid-column: 1/-1;
     height: 100%;
     width: 100%;
+}
+.programa__title img {
+    width: 100%;
+}
+.programa__date {
+    grid-column: 1/-1;
+    text-align: center;
+    font-size: xx-large;
+    margin: 15px 0 15px 0;
 }
 .talleres__title {
     margin-top: 10%;
@@ -37,16 +41,7 @@
     grid-column: 7/10;
     margin: auto;
 }
-/* .programa__ponentes {
-    grid-column: 4/-4;
-    padding-top: 10%;
-}
-.ponentes-ponente {
-    max-width: 70%;
-    grid-column: span 5;
-    margin: auto;
-    margin-top: -20%;
-} */
+
 .programa__left {
     grid-column: 2/9;
     padding-top: 25%;

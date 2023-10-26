@@ -105,6 +105,9 @@ h3 {
 .c_gray {
   color: var(--gray);
 }
+.c_yellow {
+  color: var(--yellow);
+}
 .extraBold {
   font-family: "OpenSans-ExtraBold";
 }

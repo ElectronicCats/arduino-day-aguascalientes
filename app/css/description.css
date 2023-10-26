@@ -57,11 +57,10 @@
         grid-column: 2/-1;
     }
     .feriaMakerImages {
-        grid-column: 1/-1;
+        grid-column: 5/-1;
     }
     .feriaMakerImages__museum {
-        width: 90%;
-        grid-column: 2/-1;
+        width: 50%;
         margin: auto;
     }
     .feriaMaker__museum-logo {
@@ -74,7 +73,7 @@
         display: block;
         margin-top: 5%;
         margin-left: 0%;
-    }  
+    }
     .feriaMakerImages__characters {
         width: 55%;
         display: block;
