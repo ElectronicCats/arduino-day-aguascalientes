@@ -1,7 +1,8 @@
 .feriaMaker__title {
-    font-family: 'MuktaMalar-Bold';
+    font-family: 'OpenSans-ExtraBold';
     color: var(--yellow);
-
+    font-size: xx-large;
+    margin: 15px 0 15px 0;
 }
 
 .feriaMakerDescription {
@@ -10,18 +11,18 @@
 }
 
 .feriaMaker__separator {
-    color: var(--white);
+    border-color: var(--yellow);
 }
 
 .feriaMaker__details {
-    font-family: 'Soleil-Regular';
-    font-size: 150%;
+    font-family: 'OpenSans-Bold';
+    font-size: large;
     color: var(--white);
     margin-top: 0;
     margin-left: 1%;
     text-align: justify;
     text-overflow:clip;
- }
+}
 
  .feriaMaker__museum-logo {
      width: 15%;
