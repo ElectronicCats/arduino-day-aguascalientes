@@ -12,12 +12,12 @@
 .government__logos {
   padding-top: 10%;
   padding-bottom: 20%;
-  grid-column: 5/11;
+  grid-column: 2/-1;
   display: flex;
 }
 
 .government__img-gobierno {
-  max-width: 40%;
+  width: 90%;
 }
 
 .government__img-contigo {
@@ -33,7 +33,6 @@
     grid-column: 2/-2;
   }
   .government__img-gobierno {
-    width: 180%;
     display: flex;
   }
 
