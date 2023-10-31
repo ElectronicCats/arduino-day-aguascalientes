@@ -1,35 +1,26 @@
 .ponentes_section {
-  background-color: var(--white);
+  grid-column: 1/-1;
+  background-color: var(--turquoise);
   border-bottom: var(--yellow) 25px solid;
 }
 
 .ponentes_title {
-  display: flex;
-  flex-flow: row;
-  justify-content: center;
+  margin: 0;
+  position: relative;
+  top: -47%;
+  grid-column: 1/-1;
+  width: 100%;
 }
 
 .ponentes_title img {
-  width: 20%;
-  padding-top: 10%;
-}
-
-.ponentes_block {
-  margin-top: 5%;
-  padding-bottom: 10%;
-  display: flex;
-  flex-flow: row;
-  flex-wrap: wrap;
-  justify-content: space-around;
-  align-items: center;
+  width: 100%;
 }
 
 .ponentes_text {
-  font-family: "Soleil-Regular";
-  color: var(--turquoise);
+  font-family: "OpenSans-Bold";
+  color: var(--white);
   font-size: 130%;
   text-align: center;
-  width: 400px;
   margin-bottom: 5%;
 }
 
@@ -38,22 +29,4 @@
 }
 
 @media screen and (max-width: 700px) {
-  .ponentes_title {
-    width: 70%;
-    padding-top: 10%;
-  }
-  .ponentes_title img {
-    width: 100%;
-  }
-
-  .ponentes_text {
-    font-family: "Soleil-Regular";
-    color: var(--turquoise);
-    font-size: 100%;
-    text-align: center;
-  }
-
-  .ponente_img {
-    width: 50%;
-  }
 }

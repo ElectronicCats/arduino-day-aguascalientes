@@ -38,7 +38,6 @@ const DATA_PROGRAM_NOVEMBER_16 = [
     place: "B-222",
   },
 ];
-
 const DATA_WORKSHOPS = [
   {
     name: "Arduino in life",
@@ -57,6 +56,45 @@ const DATA_WORKSHOPS = [
     hour: "9:00",
     expositor: "David Cuartielles",
     place: "B-222",
+  },
+];
+
+const DATA_EXPOSITORS = [
+  {
+    name: "Caos en productor con hardware",
+    expositor: " DCircuits",
+  },
+  {
+    name: "Soluciones basicas en fabricas con Arduino",
+    expositor: "Pepe Ruiz",
+  },
+  {
+    name: "Alfabetismo Maker",
+    expositor: "Antonio Quirarte",
+  },
+  {
+    name: "Caos en productor con hardware",
+    expositor: " DCircuits",
+  },
+  {
+    name: "Soluciones basicas en fabricas con Arduino",
+    expositor: "Pepe Ruiz",
+  },
+  {
+    name: "Alfabetismo Maker",
+    expositor: "Antonio Quirarte",
+  },
+  {
+    name: "Caos en productor con hardware",
+    expositor: " DCircuits",
+  },
+  {
+    name: "Soluciones basicas en fabricas con Arduino",
+    expositor: "Pepe Ruiz",
+  },
+  {
+    name: "Alfabetismo Maker",
+    expositor: "Antonio Quirarte",
   },
 ];
 
@@ -81,6 +119,11 @@ const workshopTemplate = (obj) => `
     </div>
     <p class="taller_place">${obj.place}</p>
 `;
+const expositorTemplate = (obj, i) => `
+    <img src="assets/images/ponente${(i % 4) + 1}.svg" class="ponente_img"/>
+    <br><b><span>${obj.expositor}</span></b><br>
+    <span>${obj.name}</span>
+`;
 function templateGenerator(
   containerID,
   data,
@@ -88,10 +131,10 @@ function templateGenerator(
   containerClass
 ) {
   const fragment = document.createDocumentFragment();
-  data.forEach((obj) => {
+  data.forEach((obj, i) => {
     const program_tag = document.createElement("div");
     program_tag.classList.add(containerClass);
-    program_tag.innerHTML = templateFunction(obj);
+    program_tag.innerHTML = templateFunction(obj, i);
     fragment.appendChild(program_tag); // Append a child
   });
 
@@ -111,3 +154,9 @@ templateGenerator(
   "programa_tag"
 );
 templateGenerator("talleres", DATA_WORKSHOPS, workshopTemplate, "taller_tag");
+templateGenerator(
+  "ponentes",
+  DATA_EXPOSITORS,
+  expositorTemplate,
+  "ponentes_text"
+);

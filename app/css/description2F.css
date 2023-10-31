@@ -24,6 +24,7 @@
     grid-column: 1/9;
     width: 100%;
     margin: auto;
+    padding: 10px;
 }
 .images__evento-presencial img{
     width: 100%;
