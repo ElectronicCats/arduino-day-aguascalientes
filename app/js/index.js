@@ -120,7 +120,9 @@ const workshopTemplate = (obj) => `
     <p class="taller_place">${obj.place}</p>
 `;
 const expositorTemplate = (obj, i) => `
-    <img src="assets/images/ponente${(i % 4) + 1}.svg" class="ponente_img"/>
+    <img src="assets/images/ponente${
+      (i % 4) + 1
+    }.svg" class="ponente_img" alt="Componente avatar ${obj.expositor}"/>
     <br><b><span>${obj.expositor}</span></b><br>
     <span>${obj.name}</span>
 `;

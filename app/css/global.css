@@ -1,10 +1,12 @@
 @font-face {
   font-family: "OpenSans-ExtraBold";
   src: url(../../assets/fonts/opensans/opensans_extrabold.ttf);
+  font-display: swap;
 }
 @font-face {
   font-family: "OpenSans-Bold";
   src: url(../../assets/fonts/opensans/opensans_bold.ttf);
+  font-display: swap;
 }
 
 html {
