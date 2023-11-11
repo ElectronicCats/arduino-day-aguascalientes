@@ -8,7 +8,6 @@
 }
 
 .logos_block {
-  max-width: 70%;
   display: flex;
   flex-flow: row;
   flex-wrap: wrap;
@@ -29,6 +28,13 @@
 
 .logo_img {
   width: 100%;
+}
+
+.footer_baner {
+  width: 100%;
+  height: 100px;
+  background-image: url("../../assets/images/banner_green.png");
+  background-repeat: no-repeat;
 }
 
 @media screen and (max-width: 700px) {

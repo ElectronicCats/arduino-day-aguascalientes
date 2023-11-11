@@ -5,18 +5,44 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="description" content="Evento realizado por Arduino y el Gobierno del estado de Aguascalientes" />
 
     <link rel="icon" type="image/ico" sizes="32x32" href="./assets/images/favicon.ico" />
+    <link rel="preload" href="assets/fonts/opensans/opensans_bold.ttf" as="font" type="font/ttf" crossorigin>
+    <link rel="preload" href="assets/fonts/opensans/opensans_extrabold.ttf" as="font" type="font/ttf" crossorigin>
     <link rel="stylesheet" href="./app/css/styles.css" />
-
     <title>Arduino Day AGS 2023</title>
 </head>
 
 <body>
     <header class="header">
         <section class="grid header">
-            <div class="header__background-pattern">
+            <div class="header__aduinoday">
+                <img src="assets/images/arduino_day_23.svg" alt="Arduino Logo" loading="lazy" />
+                <div class="header__dates">
+                    <h2 class="extraBold">
+                        <span class="c_orange header__dates-hour" style="margin-right: 10px;">Noviembre</span><span
+                            class="c_turquoise header__dates-hour">15-16</span>
+                    </h2>
+                    <p class="c_gray ">
+                        De
+                        <span class="header__dates-hour"> 9:00 </span>
+                        A
+                        <span class="header__dates-hour">15:00</span>
+                        HRS.
+                    </p>
+                </div>
             </div>
+            <div class="header__david">
+                <img src="assets/images/medina_y_david.svg" alt="David Cuartielles y Aziel Medina" loading="lazy" />
+            </div>
+            <div class="header__makers">
+                <img src="assets/images/main_star.svg" alt="Makers" loading="lazy" />
+
+            </div>
+
+            <img src="assets/images/recurso_gobierno.png" class="header__goverment" alt="Recurso Gobierno"
+                loading="lazy" />
 
         </section>
     </header>
@@ -71,15 +97,34 @@
                     loading="lazy" alt="Instalaciones del Museo Descubre" />
             </div>
         </section>
-        <!--
 
-            <section class="grid">
-                <div class="programa__title">
-                    <img src="./assets/images/programa_title.png" alt="Titulo Programa">
+        <section class="grid programa">
+            <div class="programa__title">
+                <img src="./assets/images/programa_title.png" alt="Titulo Programa">
+            </div>
+            <div class="programa_dates">
+                <div>
+                    <h2 class="c_yellow programa__date">NOVIEMBRE 15</h2>
+                    <ul id="program_november15" class="wrapper">
+                    </ul>
                 </div>
-                <h2 class="c_yellow programa__date">NOVIEMBRE 15</h2>
-            </section>
-        -->
+                <div>
+                    <h2 class="c_yellow programa__date">NOVIEMBRE 16</h2>
+                    <ul id="program_november16" class="wrapper">
+                    </ul>
+                </div>
+            </div>
+
+        </section>
+
+        <section class="grid ponentes_section">
+            <figure class="ponentes_title">
+                <img src="assets/images/ponentes_title.png" alt="Ponentes" />
+            </figure>
+            <article id="ponentes" class="wrapper">
+            </article>
+        </section>
+
     </main>
 
     <footer>
@@ -97,60 +142,31 @@
                 <img src="assets/images/en_colaboracion.svg" loading="lazy" alt="Con colaboración de" />
             </figure>
             <figure class="logos_block">
-
-                <a href="https://sithec.com.mx" target="_blank">
-                    <img src="assets/images/sithec.png" class="logo_img" loading="lazy" alt="Logo de SITHEC Mex" />
-                </a>
-                <a href="https://www.instagram.com/antonio_raptors/" target="_blank">
-                    <img src="assets/images/raptors.png" class="logo_img" loading="lazy"
-                        alt="Logo de Electrónica Raptors" />
-                </a>
-                <a href="http://hsmty.org" target="_blank">
-                    <img src="assets/images/hackerspace.png" class="logo_img" loading="lazy"
-                        alt="Logo de Hacker Space Monterrey" />
+                <a href="https://www.arduino.cc/education/" target="_blank">
+                    <img src="assets/images/logo_arduino.png" class="logo_img" loading="lazy"
+                        alt="Logo de Arduino Edcucation" />
                 </a>
                 <a href="https://electroniccats.com" target="_blank">
                     <img src="assets/images/logo_electroniccats.svg" class="logo_img" loading="lazy"
                         alt="Logo de Electronic Cats" />
                 </a>
-                <a href="https://microside.com" target="_blank">
-                    <img src="assets/images/logo_microside.png" class="logo_img" loading="lazy"
-                        alt="Logo de Microside" />
+                <a href="https://www.steren.com.mx/" target="_blank">
+                    <img src="assets/images/steren.svg" class="logo_img" loading="lazy" alt="Logo de Steren Mex" />
                 </a>
-                <a href="https://www.wedirekt.com" target="_blank">
-                    <img src="assets/images/wurth_elektronik_logo.png" class="logo_img" loading="lazy"
-                        alt="Logo de Würh Elektronik" />
-                </a>
-                <a href="https://www.witzgaming.com" target="_blank">
-                    <img src="assets/images/witz.png" class="logo_img" loading="lazy" alt="Logo de Witz Store" />
-                </a>
-                <a href="https://www.pcbway.es" target="_blank">
-                    <img src="assets/images/pcbway_logo.jpg" class="logo_img" loading="lazy" alt="Logo de PCB Way" />
+                <a href="https://www.instagram.com/antonio_raptors/" target="_blank">
+                    <img src="assets/images/raptors.png" class="logo_img" loading="lazy"
+                        alt="Logo de Electrónica Raptors" />
                 </a>
                 <a href="https://hacedores.com" target="_blank">
                     <img src="assets/images/hacedores.svg" class="logo_img" loading="lazy" alt="Logo de Hacedores" />
-                </a>
-                <a href="https://uelectronics.com/" target="_blank">
-                    <img src="assets/images/unit_electronics.png" class="logo_img" loading="lazy"
-                        alt="Logo de Unit Electronics" />
-                </a>
-                <a href="https://www.arduino.cc/education/" target="_blank">
-                    <img src="assets/images/logo_arduino.png" class="logo_img" loading="lazy"
-                        alt="Logo de Arduino Edcucation" />
-                </a>
-                <a href="https://edubytes.com.mx/" target="_blank">
-                    <img src="assets/images/eb_logo.png" class="logo_img" loading="lazy" alt="Logo de EduBytes" />
                 </a>
                 <a href="https://www.agelectronica.com" target="_blank">
                     <img src="assets/images/ag_electronica.svg" class="logo_img" loading="lazy"
                         alt="Logo de AG Electronica" />
                 </a>
-                <a href="http://hayas.edu.mx" target="_blank">
-                    <img src="assets/images/logo_hayas.svg" class="logo_img" loading="lazy"
-                        alt="Logo de Colegio Las Hayas" />
-                </a>
             </figure>
         </section>
+        <div class="footer_baner"></div>
     </footer>
 
     <script src="./app/js/index.js"></script>

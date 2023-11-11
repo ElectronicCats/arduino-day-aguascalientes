@@ -1,10 +1,12 @@
 @font-face {
   font-family: "OpenSans-ExtraBold";
   src: url(../../assets/fonts/opensans/opensans_extrabold.ttf);
+  font-display: swap;
 }
 @font-face {
   font-family: "OpenSans-Bold";
   src: url(../../assets/fonts/opensans/opensans_bold.ttf);
+  font-display: swap;
 }
 
 html {
@@ -90,6 +92,18 @@ h3 {
   position: absolute;
   right: 0;
   top: 0;
+}
+
+.wrapper {
+  grid-column: 1/-1;
+  width: 100%;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-auto-rows: minmax(50px, auto);
+  grid-auto-flow: row;
+  grid-row-gap: 50px;
+  grid-column-gap: 25px;
+  margin: 20px 0 10px 0px;
 }
 
 .c_orange {

@@ -2,21 +2,20 @@
   background-color: var(--white);
   position: relative;
   grid-template-rows: repeat(15, 1fr);
-  max-height: 80vh;
-}
-.header__background-pattern {
-  background-image: url("../../assets/images/arduino_day_header_23.svg");
+  max-height: 100vh;
 
-  grid-column: 1/-1;
-  height: 100vh;
+  background-image: url("../../assets/images/2023_header1.svg");
   background-size: contain;
   background-repeat: no-repeat;
-  background-position: center top;
+  background-position-y: bottom;
+}
+.header .grid {
+  grid-template-rows: repeat(15, 1fr);
 }
 
 .header__aduinoday {
   grid-column: 1/7;
-  grid-row: 4/8;
+  grid-row: 3/5;
   font-size: xx-large;
 }
 .header__aduinoday img {
@@ -24,8 +23,8 @@
 }
 
 .header__david {
-  grid-column: 6/11;
-  grid-row: 5/-1;
+  grid-column: 4/12;
+  grid-row: 7/15;
   z-index: 1;
 }
 
@@ -43,8 +42,8 @@
 }
 
 .header__makers {
-  grid-column: 10/-1;
-  grid-row: 7/12;
+  grid-column: 11/-1;
+  grid-row: 7/9;
   align-self: center;
   display: flex;
   flex-direction: column;
@@ -67,8 +66,8 @@
 }
 
 @media screen and (max-width: 1000px) {
-  .header__background-pattern {
-    grid-row: 13/-1;
+  .header {
+    background-image: url("../../assets/images/2023_header_movile.svg");
   }
   .header__aduinoday {
     grid-column: 2/10;
@@ -76,13 +75,27 @@
     font-size: large;
   }
   .header__david {
-    grid-column: 1/8;
-    grid-row: 7/-1;
+    grid-column: 1/11;
+    grid-row: 9/-1;
   }
   .header__makers {
     grid-column: 9/-1;
     grid-row: 8/12;
     align-items: center;
     font-size: x-large;
+  }
+}
+@media screen and (max-width: 500px) {
+  .header__david {
+    grid-column: 1/12;
+    grid-row: 11/-1;
+  }
+  .header__aduinoday {
+    grid-column: 1/14;
+    grid-row: 2/7;
+    font-size: large;
+  }
+  .header__goverment {
+    width: 20%;
   }
 }
