@@ -3,6 +3,9 @@
   background-color: var(--turquoise);
   border-bottom: var(--yellow) 25px solid;
 }
+.ponentes_section .wrapper {
+  grid-template-columns: repeat(2, 1fr);
+}
 
 .ponentes_title {
   margin: 0;
@@ -22,6 +25,7 @@
   font-size: 130%;
   text-align: center;
   margin-bottom: 5%;
+  text-transform: uppercase;
 }
 
 .ponente_img {

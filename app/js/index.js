@@ -75,40 +75,34 @@ const DATA_PROGRAM_NOVEMBER_16 = [
 
 const DATA_EXPOSITORS = [
   {
-    name: "Caos en productor con hardware",
-    expositor: " DCircuits",
+    name: "Educación 4.0",
+    expositor: "Ricardo Villegas",
+    img: "ricardo.png",
   },
   {
-    name: "Soluciones basicas en fabricas con Arduino",
-    expositor: "Pepe Ruiz",
+    name: "¿Existe el Buen Usuario?",
+    expositor: "Carlos Alatorre",
+    img: "carlos.png",
   },
   {
-    name: "Alfabetismo Maker",
-    expositor: "Antonio Quirarte",
+    name: "Hackeando Tu Mente",
+    expositor: "Hacker Girl",
+    img: "hackergirl.png",
   },
   {
-    name: "Caos en productor con hardware",
-    expositor: " DCircuits",
+    name: "Por Definir",
+    expositor: " Laura Balboa",
+    img: "laura.png",
   },
   {
-    name: "Soluciones basicas en fabricas con Arduino",
-    expositor: "Pepe Ruiz",
+    name: "Provectus",
+    expositor: "Oscar Ponce",
+    img: "oscar.png",
   },
   {
-    name: "Alfabetismo Maker",
-    expositor: "Antonio Quirarte",
-  },
-  {
-    name: "Caos en productor con hardware",
-    expositor: " DCircuits",
-  },
-  {
-    name: "Soluciones basicas en fabricas con Arduino",
-    expositor: "Pepe Ruiz",
-  },
-  {
-    name: "Alfabetismo Maker",
-    expositor: "Antonio Quirarte",
+    name: "Arduino en la Escuela",
+    expositor: "Amelin Medina",
+    img: "emelin.png",
   },
 ];
 
@@ -123,9 +117,7 @@ const programTemplate = (obj) => `
 `;
 
 const expositorTemplate = (obj, i) => `
-    <img src="assets/images/ponente${
-      (i % 4) + 1
-    }.svg" class="ponente_img" alt="Componente avatar ${obj.expositor}"/>
+    <img src="assets/images/${obj.img}" class="ponente_img" alt="Componente avatar ${obj.expositor}"/>
     <br><b><span>${obj.expositor}</span></b><br>
     <span>${obj.name}</span>
 `;
