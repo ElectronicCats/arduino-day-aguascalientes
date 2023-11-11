@@ -95,11 +95,6 @@ const DATA_EXPOSITORS = [
     img: "laura.png",
   },
   {
-    name: "Provectus",
-    expositor: "Oscar Ponce",
-    img: "oscar.png",
-  },
-  {
     name: "Arduino en la Escuela",
     expositor: "Amelin Medina",
     img: "emelin.png",
