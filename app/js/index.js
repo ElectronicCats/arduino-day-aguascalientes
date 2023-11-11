@@ -1,61 +1,75 @@
 const DATA_PROGRAM_NOVEMBER_15 = [
   {
-    name: "Arduino in life",
-    hour: "9:00",
-    expositor: "Alejandro Medina",
-    place: "A-112",
+    name: "Apertura",
+    hour: "9:00 A 11:00",
+    expositor: "Escenario Principal",
   },
   {
-    name: "Arduino in life",
-    hour: "10:00",
-    expositor: "Alejandro Medina",
-    place: "A-112",
+    name: "3,2, listos, fuera!",
+    hour: "10:00 a 14:00",
+    expositor: "Ricardo Villegas",
   },
   {
-    name: "Arduino in life",
-    hour: "11:00",
-    expositor: "Alejandro Medina",
-    place: "A-112",
+    name: "Exp. Ciencia Loca",
+    hour: "10:00 a 14:00",
+    expositor: "IncyTea",
+  },
+  {
+    name: "Electronica",
+    hour: "10:00 a 14:00",
+    expositor: "Makers GDL.",
+  },
+  {
+    name: "Impresión 3D",
+    hour: "10:00 a 14:00",
+    expositor: "Daniel Solis",
+  },
+  {
+    name: "Meow Meow",
+    hour: "10:00 a 14:00",
+    expositor: "Eric Chávez",
+  },
+  {
+    name: "Ponencia Principal",
+    hour: "14:00 a 15:00",
+    expositor: "David Cuartielles",
   },
 ];
 const DATA_PROGRAM_NOVEMBER_16 = [
   {
-    name: "Arduino in life",
-    hour: "9:00",
-    expositor: "David Cuartielles",
-    place: "B-222",
+    name: "Impresión 3D",
+    hour: "10:00 a 14:00",
+    expositor: "Daniel Solis",
   },
   {
-    name: "Arduino in life",
-    hour: "10:00",
-    expositor: "David Cuartielles",
-    place: "B-222",
+    name: "Exp. Ciencia Loca",
+    hour: "10:00 a 14:00",
+    expositor: "IncyTea",
   },
   {
-    name: "Arduino in life",
-    hour: "11:00",
-    expositor: "David Cuartielles",
-    place: "B-222",
-  },
-];
-const DATA_WORKSHOPS = [
-  {
-    name: "Arduino in life",
-    hour: "9:00",
-    expositor: "David Cuartielles",
-    place: "B-222",
+    name: "3,2, listos, fuera!",
+    hour: "10:00 a 14:00",
+    expositor: "Ricardo Villegas",
   },
   {
-    name: "Arduino in life",
-    hour: "9:00",
-    expositor: "David Cuartielles",
-    place: "B-222",
+    name: "Electronica",
+    hour: "10:00 a 14:00",
+    expositor: "Makers GDL.",
   },
   {
-    name: "Arduino in life",
-    hour: "9:00",
-    expositor: "David Cuartielles",
-    place: "B-222",
+    name: "Meow Meow",
+    hour: "10:00 a 14:00",
+    expositor: "Eric Chávez",
+  },
+  {
+    name: "Tu Voz en Steam",
+    hour: "14:00 a 15:00",
+    expositor: "Aziel Medina",
+  },
+  {
+    name: "Clausura",
+    hour: "15:00 a 16:00",
+    expositor: "Escenario Principal",
   },
 ];
 
@@ -104,21 +118,10 @@ const programTemplate = (obj) => `
     </div>
     <div class="program_expositor">
         <h3>${obj.name}</h3>
-        <p>${obj.expositor} | <span class="c_orange">${obj.place}</span></p>
+        <p>${obj.expositor}</p>
     </div>
 `;
-const workshopTemplate = (obj) => `
-    <div class="taller_description">
-        <div class="talleres_hour">
-            <span class="c_yellow">${obj.hour}</p>
-        </div>
-        <div class="talleres_expositor">
-            <h3>${obj.name}</h3>
-            <p class="c_orange">${obj.expositor}</p>
-        </div>
-    </div>
-    <p class="taller_place">${obj.place}</p>
-`;
+
 const expositorTemplate = (obj, i) => `
     <img src="assets/images/ponente${
       (i % 4) + 1
@@ -130,11 +133,12 @@ function templateGenerator(
   containerID,
   data,
   templateFunction,
-  containerClass
+  containerClass,
+  containerElement = "div"
 ) {
   const fragment = document.createDocumentFragment();
   data.forEach((obj, i) => {
-    const program_tag = document.createElement("div");
+    const program_tag = document.createElement(containerElement);
     program_tag.classList.add(containerClass);
     program_tag.innerHTML = templateFunction(obj, i);
     fragment.appendChild(program_tag); // Append a child
@@ -147,15 +151,16 @@ templateGenerator(
   "program_november15",
   DATA_PROGRAM_NOVEMBER_15,
   programTemplate,
-  "programa_tag"
+  "programa_tag",
+  "li"
 );
 templateGenerator(
   "program_november16",
   DATA_PROGRAM_NOVEMBER_16,
   programTemplate,
-  "programa_tag"
+  "programa_tag",
+  "li"
 );
-templateGenerator("talleres", DATA_WORKSHOPS, workshopTemplate, "taller_tag");
 templateGenerator(
   "ponentes",
   DATA_EXPOSITORS,

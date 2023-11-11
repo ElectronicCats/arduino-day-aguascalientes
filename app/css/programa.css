@@ -12,6 +12,15 @@
   margin-top: 20px;
   width: 100%;
 }
+.programa_dates {
+  display: flex;
+  grid-column: 1/-1;
+  justify-content: space-around;
+  width: 100%;
+}
+.programa_dates .wrapper {
+  grid-template-columns: repeat(1, 1fr);
+}
 .programa__date {
   grid-column: 1/-1;
   text-align: center;
@@ -23,22 +32,27 @@
   display: flex;
   justify-self: stretch;
   margin: 5px;
+  text-transform: uppercase;
 }
 .programa_tag .program_hour {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin: 5px 20px 5px 5px;
+  width: 200px;
+  margin: 0 20px 0 5px;
   padding: 5px 10px 5px 10px;
   vertical-align: middle;
   text-align: center;
-  background-color: var(--white);
-  color: var(--turquoise);
+  background-color: var(--orange);
+  color: var(--white);
 }
 .program_expositor {
   color: var(--white);
   text-align: left;
   width: 90%;
+}
+.program_expositor h3 {
+  font-family: "OpenSans-Bold";
 }
 
 .talleres {
@@ -88,15 +102,12 @@
 }
 
 @media screen and (max-width: 1000px) {
-  .wrapper {
-    grid-template-columns: repeat(2, 1fr);
-  }
   .programa_tag {
     justify-self: center;
   }
 }
 @media screen and (max-width: 600px) {
-  .wrapper {
-    grid-template-columns: repeat(1, 1fr);
+  .programa_dates {
+    flex-direction: column;
   }
 }
